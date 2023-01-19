@@ -1,0 +1,46 @@
+a{
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 10px;
+    justify-content: end; 
+}
+#navbar>div{
+    margin-right: 20px;
+   
+}
+#slideshow{
+    margin-top: 30px;
+    width: 100%;
+}
+#slideshow>img{
+    width: 100%;
+    height: 500px;
+}
+
+#movies{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 10px;
+    padding: 30px;
+    
+}
+#movies>div>img{
+    width: 100%;
+}
+#movies>div{
+    padding: 20px;
+   text-align: center;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sort-buttons>button{
+    padding: 10px;
+    color: black;
+    background-color: aqua;
+    font-weight: bold;
+}
